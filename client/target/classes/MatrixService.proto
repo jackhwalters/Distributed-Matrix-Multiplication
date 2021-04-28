@@ -1,0 +1,70 @@
+syntax = "proto3";
+option java_multiple_files = true;
+package com.example.grpc.server.grpcserver;
+
+// The request message containing the two matricies
+message MatrixRequest {
+    int32 a00 = 1;
+    //int32 a01 = 2;
+    //int32 a10 = 3;
+    //int32 a11 = 4;
+    int32 b00 = 2;
+    //int32 b01 = 6;
+    //int32 b10 = 7;
+    //int32 b11 = 8;
+}
+
+// The response message containing the result marix
+message MatrixReply {
+    int32 c00 = 1;
+    //int32 c01 = 2;
+    //int32 c10 = 3;
+    //int32 c11 = 4;
+}
+
+// The matrix service definition.
+service MatrixService{
+    rpc MultiplyBlock (MatrixRequest) returns (MatrixReply) {}
+    rpc AddBlock (MatrixRequest) returns (MatrixReply) {}
+}
+
+
+              //.setA00(A[rowA][rowA])
+              //.setA01(A[rowA][rowA+1])
+              //.setA10(A[rowA+1][rowA])
+              //.setA11(A[rowA+1][rowA+1])
+              //.setB00(B[rowB][rowB])
+              //.setB01(B[rowB][rowB+1])
+              //.setB10(B[rowB+1][rowB])
+              //.setB11(B[rowB+1][rowB+1])
+              //.build());
+            //C[0][0] = MR_C.getC00();
+            //C[0][1] = MR_C.getC01();
+            //C[1][0] = MR_C.getC10();
+            //C[1][1] = MR_C.getC11();
+
+
+          //.setA00(A[0][0])
+          //.setA01(A[0][1])
+          //.setA10(A[1][0])
+          //.setA11(A[1][1])
+          //.setB00(B[0][0])
+          //.setB01(B[0][1])
+          //.setB10(B[1][0])
+          //.setB11(B[1][1])
+          //.build());
+        //C[rowC][colC] = MR_C.getC00();
+        //C[rowC][colC+1] = MR_C.getC01();
+        //C[rowC+1][colC] = MR_C.getC10();
+        //C[rowC+1][colC+1] = MR_C.getC11();
+
+//message MatrixRequest{
+    //int32 a = 1;
+    //int32 b = 2;
+//}
+//message MatrixResponse{
+    //int32 c = 1;
+//}
+//service MatrixService{
+    //rpc addBlock(MatrixRequest) returns (MatrixResponse);
+//}

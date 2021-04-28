@@ -1,0 +1,15 @@
+/home/ubuntu/distributedSystems/GRPCSpringStartingPoint/grpc-client/target/generated-sources/protobuf/java/com/example/grpc/server/grpcserver/MatrixRequest.java
+/home/ubuntu/distributedSystems/GRPCSpringStartingPoint/grpc-client/target/generated-sources/protobuf/java/HelloService.java
+/home/ubuntu/distributedSystems/GRPCSpringStartingPoint/grpc-client/src/main/java/com/example/grpc/client/grpcclient/MatrixNotAPowerOfTwoException.java
+/home/ubuntu/distributedSystems/GRPCSpringStartingPoint/grpc-client/src/main/java/com/example/grpc/client/grpcclient/GrpcClientApplication.java
+/home/ubuntu/distributedSystems/GRPCSpringStartingPoint/grpc-client/src/main/java/com/example/grpc/client/grpcclient/MatrixProcessing.java
+/home/ubuntu/distributedSystems/GRPCSpringStartingPoint/grpc-client/target/generated-sources/protobuf/java/com/example/grpc/server/grpcserver/MatrixReply.java
+/home/ubuntu/distributedSystems/GRPCSpringStartingPoint/grpc-client/target/generated-sources/protobuf/grpc-java/com/example/grpc/server/grpcserver/MatrixServiceGrpc.java
+/home/ubuntu/distributedSystems/GRPCSpringStartingPoint/grpc-client/target/generated-sources/protobuf/java/com/example/grpc/server/grpcserver/MatrixRequestOrBuilder.java
+/home/ubuntu/distributedSystems/GRPCSpringStartingPoint/grpc-client/src/main/java/com/example/grpc/client/grpcclient/MatrixEndpoint.java
+/home/ubuntu/distributedSystems/GRPCSpringStartingPoint/grpc-client/target/generated-sources/protobuf/java/com/example/grpc/server/grpcserver/MatrixReplyOrBuilder.java
+/home/ubuntu/distributedSystems/GRPCSpringStartingPoint/grpc-client/src/main/java/com/example/grpc/client/grpcclient/GRPCClientService.java
+/home/ubuntu/distributedSystems/GRPCSpringStartingPoint/grpc-client/src/main/java/com/example/grpc/client/grpcclient/InputMatricesNotSameSizeException.java
+/home/ubuntu/distributedSystems/GRPCSpringStartingPoint/grpc-client/src/main/java/com/example/grpc/client/grpcclient/StubThreading.java
+/home/ubuntu/distributedSystems/GRPCSpringStartingPoint/grpc-client/target/generated-sources/protobuf/java/com/example/grpc/server/grpcserver/MatrixServiceOuterClass.java
+/home/ubuntu/distributedSystems/GRPCSpringStartingPoint/grpc-client/src/main/java/com/example/grpc/client/grpcclient/MatrixTooSmallException.java

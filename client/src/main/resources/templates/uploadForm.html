@@ -1,0 +1,30 @@
+<html xmlns:th="https://www.thymeleaf.org">
+<body>
+
+	<div th:if="${message}">
+		<h2 th:text="${message}"/>
+	</div>
+
+	<div>
+		<form method="POST" enctype="multipart/form-data" action="/">
+			<table>
+				<tr><td>Upload matrix A:</td><td><input type="file" name="matrixA" /></td></tr>
+				<tr><td>Upload matrix B:</td><td><input type="file" name="matrixB" /></td></tr>
+				<tr><td></td><td><input type="submit" value="Upload" /></td></tr>
+			</table>
+		</form>
+	</div>
+
+	<div>
+		<ul>
+			<li th:each="matrixA : ${files}">
+				<a th:href="${matrixA}" th:text="${matrixA}" />
+			</li>
+			<li th:each="matrixB : ${files}">
+				<a th:href="${matrixB}" th:text="${matrixB}" />
+			</li>
+		</ul>
+	</div>
+
+</body>
+</html>

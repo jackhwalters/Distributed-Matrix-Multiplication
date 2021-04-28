@@ -1,0 +1,14 @@
+/home/ubuntu/server/src/main/java/com/example/grpc/server/grpcserver/MatrixServiceImpl.java
+/home/ubuntu/server/target/generated-sources/protobuf/java/com/example/grpc/server/grpcserver/HelloResponse.java
+/home/ubuntu/server/target/generated-sources/protobuf/java/com/example/grpc/server/grpcserver/MatrixReplyOrBuilder.java
+/home/ubuntu/server/target/generated-sources/protobuf/java/com/example/grpc/server/grpcserver/HelloRequest.java
+/home/ubuntu/server/target/generated-sources/protobuf/java/com/example/grpc/server/grpcserver/MatrixServiceOuterClass.java
+/home/ubuntu/server/target/generated-sources/protobuf/java/com/example/grpc/server/grpcserver/MatrixReply.java
+/home/ubuntu/server/target/generated-sources/protobuf/java/com/example/grpc/server/grpcserver/MatrixRequest.java
+/home/ubuntu/server/src/main/java/com/example/grpc/server/grpcserver/GrpcServerApplication.java
+/home/ubuntu/server/target/generated-sources/protobuf/java/com/example/grpc/server/grpcserver/MatrixRequestOrBuilder.java
+/home/ubuntu/server/target/generated-sources/protobuf/grpc-java/com/example/grpc/server/grpcserver/HelloServiceGrpc.java
+/home/ubuntu/server/target/generated-sources/protobuf/java/com/example/grpc/server/grpcserver/HelloRequestOrBuilder.java
+/home/ubuntu/server/target/generated-sources/protobuf/grpc-java/com/example/grpc/server/grpcserver/MatrixServiceGrpc.java
+/home/ubuntu/server/target/generated-sources/protobuf/java/com/example/grpc/server/grpcserver/HelloServiceOuterClass.java
+/home/ubuntu/server/target/generated-sources/protobuf/java/com/example/grpc/server/grpcserver/HelloResponseOrBuilder.java
