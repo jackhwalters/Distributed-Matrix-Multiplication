@@ -3,7 +3,7 @@ This is a RESTful distributed matrix multiplication system utilising gRPC to imp
 
 ### Running the system
 
-1. Adjust the IP addresses of the serevers in client/src/main/java/com/example/grpc/client/grpcclient/GRPCClientService.java  
+1. Adjust the IP addresses of the servers in client/src/main/java/com/example/grpc/client/grpcclient/GRPCClientService.java  
 
 2. Generate a 2^n matrix with
 ```
