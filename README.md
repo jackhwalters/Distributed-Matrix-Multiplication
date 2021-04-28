@@ -15,7 +15,7 @@ $ python generateMatrix.py n
 $ client/mvnw clean spring-boot:run -Dmaven.test.skip=true
 ```
 
-4. Run the 8 servers with  
+4. Run each of the 8 servers with  
 ```
 $ server/mvnw clean spring-boot:run -Dmaven.test.skip=true
 ```
