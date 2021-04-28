@@ -7,7 +7,7 @@ This is a RESTful distributed matrix multiplication system utilising gRPC to imp
 
 2. Generate a 2^n matrix with
 ```
-$ generateMatrix.py n
+$ python generateMatrix.py n
 ```
 
 3. Run the client with  
