@@ -22,5 +22,5 @@ $ server/mvnw clean spring-boot:run -Dmaven.test.skip=true
 
 5. Access the client frontend in your browser at  
 ```
-your-server-address:8082/
+your-client-address:8082/
 ```
