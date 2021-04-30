@@ -5,7 +5,7 @@ This is a RESTful distributed matrix multiplication system utilising gRPC to imp
 
 1. Adjust the IP addresses of the servers in client/src/main/java/com/example/grpc/client/grpcclient/GRPCClientService.java  
 
-2. Generate a 2^n matrix with
+2. Generate a nxn matrix (where n is a power of two) with
 ```
 $ python generateMatrix.py n
 ```
